@@ -1,4 +1,4 @@
-# myapp
+# LinkedIn_Clone
 
 A new Flutter project.
 
