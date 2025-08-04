@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nb_utils/nb_utils.dart';
 
 class ManageMyNetworkScreen extends StatefulWidget {
   const ManageMyNetworkScreen({super.key});
@@ -11,7 +12,8 @@ class _ManageMyNetworkScreenState extends State<ManageMyNetworkScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Manage my network'), centerTitle: false),
+      backgroundColor: Colors.white,
+      appBar: AppBar(title: Text('Manage my network'), centerTitle: false,backgroundColor: Colors.white,),
       body: ListView(
         children: const [
           Divider(),
@@ -34,7 +36,7 @@ class _ManageMyNetworkScreenState extends State<ManageMyNetworkScreen> {
           ),
           Divider(),
           ListTile(
-            leading: Icon(Icons.people_rounded),
+            leading: Icon(LineIcons.users),
             title: Text('Groups'),
             trailing: Text('10'),
           ),
